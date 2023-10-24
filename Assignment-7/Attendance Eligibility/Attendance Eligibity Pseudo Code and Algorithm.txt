@@ -1,0 +1,39 @@
+ALGORITHM FOR ATTENDANCE ELIGIBILITY
+
+
+Step-1 START
+Step-2 Ask User to Enter the Student Name and store it in Name variable.
+Step-3 Ask User to Enter the Attendance Percentage and store it in Attendance variable.
+Step-4 Check if, Attendance is greater or equal to 75, if True then display Student Name is Eligible for the Examination.
+Step-5 If false, Ask User Does the Student have any Medical Report of a medical Condition and store it in Y variable.
+Step-6 Check if Y is Equals to Y, If true Display Student name is Eligible for the examination after Submitting the record to Institute.
+Step-7 If False then Display Student Name is NOT eligible for Examination.
+Step-8 STOP.
+
+
+PSEUDO CODE
+
+
+begin
+     declare Name as character
+     print "Enter the Student Name"
+     Get Name
+     declare Attendance as numeric
+     Get Attendance
+     if Attendance>=75
+       begin
+         print "Student Name is Eligible for the Examination"
+       end
+      else
+       begin
+       declare Y as character
+         print "Does the Student have any medical report of a Medical Condition"
+     if Y==Y
+       begin
+       print" Student Name is Eligible for the examination after Submitting the record to Institute"
+       end
+     else
+        begin
+        print" Student Name is Not Eligible for the examination after Submitting the record to Institute"
+        end
+end

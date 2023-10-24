@@ -1,0 +1,34 @@
+Algorithm for Traffic Signal Color
+
+Step1. START
+Step2. Ask User Please Enter Which Color You see in Traffic Light and store it in Color Variable.
+Step3. Check if, Color is equals to RED. If true, then Display STOP the Vehicle.
+Step4. If false then Check if Color is equals to YELLOW if true, then Display SLOW DOWN the Vehicle.
+Step5. If false then check if Color is equals to GREEN if true, then display GO.
+Step6. if False then display It’s Not a Valid Signal.
+Step7. STOP
+
+
+PSEUDO CODE
+
+
+begin
+     declare color as character
+     get color
+     if color = RED
+           begin
+           print "STOP the Vehicle"
+           end
+     else if color = YELLOW
+           begin
+           print “SLOW DOWN your Vehicle"
+           end
+     else if color = GREEN
+           begin
+           print "GO"
+           end
+     else
+           begin
+           print "It’s not a valid signal"
+           end
+end

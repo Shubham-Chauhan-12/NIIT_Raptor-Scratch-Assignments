@@ -1,0 +1,35 @@
+Algorithm for Age Categories
+
+Step1. START
+Step2. Ask User to Enter the Patient Name and store the value in Name variable.
+Step3. Ask User to Enter the Patient Age and store the value in Age variable.
+Step4. Check if Age is Greater than or Equal to 20, If true Display Patient Name is in a ADULT category.
+Step5. If false, Check if Age is Greater than or Equal to 13.
+Step6. If True, Display Patient Name is in a Teenager category.
+Step7. If False, Display Patient Name is in a Child category.
+Step8. STOP
+
+
+
+PSEUDO CODE
+
+
+begin
+     declare Name as character
+     print “Enter the Patient Name”
+     get Name
+     declare Age as numeric
+     get Age
+     if Age >= 20
+            begin
+            print “Patient Name is in Adult Category”
+            end
+     else if Age >= 13
+           begin
+           print “Patient Name is in Teenager Category”
+           end
+     else
+           begin
+           print “Patient Name is in Child Category”
+           end
+end

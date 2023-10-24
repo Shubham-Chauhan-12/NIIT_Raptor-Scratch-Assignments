@@ -1,0 +1,42 @@
+Algorithm for Armstrong Number
+
+Step-1 Start
+Step-2 Ask User Enter the Number and store it in Number Variable.
+Step-3 Assign 0 in Digit Variable initially
+Step-4 Assign 0 in Sum Variable initially
+Step-5 Assign Number in Y
+Step-6 Take a Repeat until Loop and gave the condition Y is equals to 0
+Step-7 Assign (Y mod 10) in Digit
+Step-8 Assign (floor(Y/10)) in Y
+Step-9 Assign (Sum + digit *digit*digit) in Sum
+Step-10 After the condition is satisfied, Y is equals to 0
+Step-11 then check if Number is equals to Sum
+Step-12 if true, then Display the Entered Number is Armstrong Number
+Step-13 if false, then Display the Entered Number is Not a Armstrong Number
+Step-14 Stop
+
+
+PSEUDO CODE
+
+
+begin
+     declare Number, Y, Sum, Digit as Numeric
+     print " Enter the Number "
+     Get Number
+     Set Sum=0 and Y=Number and Digit=0
+         begin
+         loop until Y=0
+         set Digit=Y % 10
+         set Y = floor(Y/10)
+         set Sum = Sum + digit*digit*digit
+         end
+
+         begin
+     if Number=Sum
+             Print " The Entered Number is Armstrong Number "
+         end
+    else
+        begin
+           print " The Entered Number is Not a Armstrong Number"
+        end
+end
